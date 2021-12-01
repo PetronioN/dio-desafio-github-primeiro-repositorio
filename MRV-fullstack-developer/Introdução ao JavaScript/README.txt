@@ -1,7 +1,9 @@
 # Curso de Introdução ao JavaScript
 
 ## Um curso introdutório de JavaScript oferecido pela DIO
+
 ### Links úteis
+
 [DIO](https://web.dio.me/home)
 [MRV Bootcamp](https://web.dio.me/track/mrv-fullstack-developer)
 
