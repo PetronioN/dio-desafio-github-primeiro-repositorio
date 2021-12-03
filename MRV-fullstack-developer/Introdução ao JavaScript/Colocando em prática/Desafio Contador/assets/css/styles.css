@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#4f52e8;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+}
+
+p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fonte {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.redbutton {
+    background: #F63D3D;
+    background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+    background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+    background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+    background-image: -o-linear-gradient(top, #F63D3D, #811616);
+    background-image: linear-gradient(to bottom, #F63D3D, #811616);
+    height: 14px;
+    line-height: 0px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    box-shadow: 1px 1px 6px 0px #000000;
+    -webkit-box-shadow: 1px 1px 6px 0px #000000;
+    -moz-box-shadow: 1px 1px 6px 0px #000000;
+    text-shadow: 1px 1px 6px #000000;
+    border: solid #762C2C 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.greenbutton {
+    background: #08fc51;
+    background-image: -webkit-linear-gradient(top, #3df66b, #16811b);
+    background-image: -moz-linear-gradient(top, #3df665, #168136);
+    background-image: -ms-linear-gradient(top, #3df665, #1a8116);
+    background-image: -o-linear-gradient(top, #53f63d, #168128);
+    background-image: linear-gradient(to bottom, #3df656, #238116);
+    height: 14px;
+    line-height: 0px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    box-shadow: 1px 1px 6px 0px #000000;
+    -webkit-box-shadow: 1px 1px 6px 0px #000000;
+    -moz-box-shadow: 1px 1px 6px 0px #000000;
+    text-shadow: 1px 1px 6px #000000;
+    border: solid #762C2C 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+    

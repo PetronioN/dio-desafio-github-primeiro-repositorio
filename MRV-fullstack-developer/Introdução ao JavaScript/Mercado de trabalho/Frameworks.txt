@@ -1,0 +1,14 @@
+#Objetivos
+
+1. Entender as exigências do mercado de trabalho
+2. Saber onde encontrar oportunidades
+
+##Frameworks e bibliotecas
+
+São ferramentas para que você tenha mais velocidade
+na construção do seu código.
+
+- VueJS
+- Angular
+- React
+- jQuery
