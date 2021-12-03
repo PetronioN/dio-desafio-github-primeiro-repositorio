@@ -1,0 +1,17 @@
+#Objetivos
+
+1. Aprender a utilizar o console em uma página web
+2. Aprender a utilizar o console no terminal
+
+Em uma página, quando você clica com o botão direito
+do mouse, aparecem várias ferramentas. Clicando em
+<i>Inspecionar</i>, vão aparecer várias informações
+do site que você está. 
+
+Na barra de navegação do inspecionar, você pode ver o
+<i>Console</i> e nesse console você pode fazer
+várias operações e é dessa maneira que se utiliza o console
+em uma página da web.
+
+##Links úteis
+[Node.js](https://nodejs.org/en/download/)

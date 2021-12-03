@@ -1,0 +1,8 @@
+#Objetivos
+
+1. Se familiarizar com a sintaxe da linguagem
+2. Entender a diferença entre variável e constante
+3. Ser capaz de comentar seu código
+
+<b>OBS.:</b> As explicações da aula estão comentadas no
+arquivo JS.

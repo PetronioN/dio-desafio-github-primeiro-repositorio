@@ -1,0 +1,45 @@
+#Objetivos
+
+1. Entender a história da linguagem
+2. Conhecer as principais evoluções
+3. Conhecer aplicações na vida real
+
+##História
+
+O JavaScript é uma linguagem <b>interpretada</b>,
+que significa dizer que o browser está compilando
+ela em tempo real e aquele código está sendo
+disponibilizado para você de maneira instantânea.
+
+Ela também é baseada em protótipos. Protótipo é
+como se fosse uma base para uma grande parte das
+das estruturas de dados. O protótipo é um conjunto
+de funções e possibilidades em comum em todas essas
+estruturas de dados.
+
+É uma linguagem multiparadigma, o que significa que você
+não se prende a um paradigma da programação, é
+uma linguagem flexível.
+
+Comumente utilizada em aplicações web client-side.
+
+Segue o padrão ECMAScript. É como se fosse um padrão
+para várias linguagens que diz quais funcionalidades
+estão sendo implementadas em uma determinada linguagem.
+
+Foi criado em 1995, mas em 1997 foi quando ele começou
+a seguir o padrão ECMAScript 1. Em 1998 seguiu o padrão
+ECMAScript 2. Em 1999 o ECMAScript 3, juntamente com a
+adição das Regular Expressions; try/catch. Em 2009 o ECMAScript 5,
+que adicionou ainda mais métodos e funcionalidades; "strict mode",
+JSON support, Strig.trim(), Array.isArray(), Array Iteration Methods.
+2015 ECMAScript 6 trouxe inúmeras atualizações.
+
+##Aplicações
+
+- Web
+- Mobile
+- Smartwatches
+- Games
+- Internet of Things
+- APIs
