@@ -1,0 +1,65 @@
+#Objetivos
+
+1. Conhecer os operadores mais populares do JS
+
+##Tipos de operadores
+
+Os operadores são sinais que utilizamos para
+manipular um certo valor ou pra validar uma
+certa condição.
+
+- Aritimética
+- Atribuição
+- Comparação
+- Lógica
+- Condicional
+
+##Atribuição
+
+Operador	Exemplo		Equivalente a
+=		x = y		x = y
++=		x += y		x = x + y
+*=		x *= y		x = x * y
+/=		x /= y		x = x / y
+%=		x %= y		x = x % y
+
+O mais comum de você ver é o =, o restante não é
+muito utilizado, a não ser que você trabalhe com
+coisas ligadas a cálculo.
+
+##Aritmética
+
+Operador	Descrição
++		Adição
+-		Subtração
+*		Multiplicação
+**		Exponencial
+/		Divisão
+%		Módulo
+++		Incrementar
+--		Decrementar
+
+##Comparação
+
+Operador	Descrição
+==		Igual a
+===		Mesmo valor e mesmo tipo
+!=		Diferente
+!==		Valor e tipos diferentes
+>		Maior que
+<		Menor que
+>=		Maior ou igual
+<=		Menor ou igual
+
+##Lógica
+
+Operador	Descrição
+&&		"e" lógico
+||		"ou" lógico
+!		"não" lógico
+
+##Condicional (ternário)
+
+(condição) ? expressão1 : expressão 2
+
+//é a mesma coisa que usar um if/else
