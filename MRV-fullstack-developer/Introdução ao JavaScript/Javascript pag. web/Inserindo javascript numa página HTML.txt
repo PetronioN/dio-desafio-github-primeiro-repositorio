@@ -1,0 +1,13 @@
+A estrutura para chamar um arquivo CSS para o seu
+HTML é o seguinte:
+
+<link rel="stylesheet" href="local do arquivo e arquivo" />
+
+Se você tiver um script muito grande, é recomendável que
+você coloque-o antes do fechamento do seu HTML, porque se
+você colocá-lo antes, ele pode acabar se relacionando com
+coisas que não carregaram ainda.
+
+Como linkar um arquivo js no seu HTML:
+
+<script src="origem"></script>

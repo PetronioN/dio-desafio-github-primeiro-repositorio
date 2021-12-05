@@ -1,0 +1,13 @@
+###DOM
+
+A sigla DOM significa <b>Document Object Model</b>.
+
+Utilizando o <b>document.getElementsByTagName('h1')</b> no console,
+eu terei como retorno o <i>HTMLCollection</i>, que irá mostrar as
+especificações daquela tag que eu passei, no exemplo, o h1.
+
+var heading1 = document.getElementsByTagName('h1')[0] /*aqui eu adiciono
+o resultado do meu getElementsByTagName('h1') a minha variável heading1*/
+
+heading1.style.color = 'red' /*Já nessa variável, eu vou alterar a cor do texto
+para red utilizando o style que me permite alterar o CSS.*/

@@ -1,0 +1,10 @@
+#Objetivos
+
+1. Se familiarizar com uma estrutura de projeto simples
+2. Aprender a interagir com elementos HTML no DOM
+
+Você separa os arquivos por pastas, isso se chama de
+<b>arquitetura</b>.
+
+Assets são os artifícios, as ferramentas que você tem,
+os arquivos que não são HTML.
