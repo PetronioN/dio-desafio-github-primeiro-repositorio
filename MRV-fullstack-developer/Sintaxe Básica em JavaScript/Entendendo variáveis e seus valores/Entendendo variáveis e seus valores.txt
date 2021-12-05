@@ -1,0 +1,97 @@
+#Objetivos
+
+1. Como funciona a tipagem em JS?
+2. O que são variáveis e como declarar?
+3. Diferenças entre atribuição, comparação e
+comparação idêntica
+4. Operadores aritméticos, relacionais e lógicos
+
+##Tipagem
+
+A tipagem funciona como uma regra de uso de dados,
+quanto mais forte for a tipagem, mais obrigatório
+é a declaração do tipo de dado.
+
+A tipagem em JavaScript é fraca, a declaração dos
+dados acontece de modo dinâmico.
+
+Ex.: Ao criarmos uma variável com valor entre aspas("valor")
+o JavaScript já converte o dado para o tipo String.
+
+##Tipos primitivos
+
+As variáveis em JavaScript podem guardar tipos de dados que
+chamamos de tipos primitivos.
+
+Variáveis podem guardar valores dos tipos: Boolean; null;
+undefined; Number; String; Array; Object; Function.
+
+##O que são variáveis?
+
+São dados que variam.
+
+##Declaração de variáveis
+
+Existem 3 modos de declarar as variáveis em JS:
+
+var - escopo global e local, pode ter seu valor alterado,
+se não tiver um valor inicial será tratada como null.
+
+let - escopo local de bloco, pode ter seu valor alterado,
+se não tiver um valor inicial será tratada como null.
+
+const - escopo local de bloco, somente leitura, o valor
+inicial é obrigatório e não pode ser alterada.
+
+##Escopo
+
+O escopo em JavaScript define a limitação e visibilidade
+de um bloco de código.
+
+Escopo global - quando a variável é declarada fora de
+qualquer bloco, sua visibilidade fica disponível em todo
+o código.
+
+Escopo local - quando a variável é declarada dentro de um
+bloco, sua visibilidade pode ficar disponível ou não.
+
+##Atribuição
+
+O sinal de igualdade "=" em JavaScript, significa atribuição.
+
+##Comparação
+
+Para fazermos uma comparação de valores em JavaScript usamos
+"==". Retorna um booleano.
+
+##Comparação idêntica
+
+Para fazermos uma comparação de valores e tipos em JS usamos
+"===".
+
+##Operadores aritméticos
+
++ adição
+- subtração
+* multiplicação
+/ divisão real
+% divisão inteira
+** potenciação
+
+##Operadores relacionais
+
+> maior que
+< menor que
+>= maior ou igual a
+<= menor ou igual a
+
+##Operadores lógicos
+
+&& - "e" - considera que todos os valores
+true
+
+|| - "ou" - considera que qualquer valor seja
+true
+
+! - "não" - inverte o valor de true para false
+ou vice-versa
