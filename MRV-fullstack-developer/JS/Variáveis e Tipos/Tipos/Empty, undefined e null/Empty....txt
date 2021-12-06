@@ -1,0 +1,8 @@
+##Empty, null e undefined
+
+Empty você declarou a variável.
+
+Null quando você quer que propositalmente
+você quer que o valor não exista.
+
+undefined você não declarou, ele não existe.

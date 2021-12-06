@@ -1,0 +1,46 @@
+#Objetivo
+
+1. Explicar o que são variáveis
+2. Explicar o que são constantes
+3. Explicar a diferença entre var, const e let
+
+##Atribuição de Valores
+
+Case Type			Example
+Original Variable as String	same awesome var
+Camel Case			someAwesomeVar
+Snake Case			some_awesome_var
+Kebab Case			some-awesome-var
+Pascal Case			SomeAwesomeVar
+Upper Case Snake Case		SOME_AWESOME_VAR
+
+##Var e let
+
+A let introduz pra gente o que chamamos de escopo de
+bloco.
+
+var a = 1;
+var b = 2;
+
+if (a === 1) {
+	var a = 11; //o escopo é global por ser uma var
+	let b = 22; //o escopo é local por ser uma let
+
+	console.log(a); //11
+	console.log(b); //22
+}
+
+console.log(a); //11
+console.log(b); //2
+//O b vai ter como saída o 2 porque fora do if o let
+não terá feito a alteração.
+
+- Escopos diferentes
+- Hoisting: é atribuir um valor a variável antes de
+declarar ela. Isso só acontece com a var e com algumas
+funções.
+- Redeclaração. Você não pode redeclarar um let, mas pode
+uma var. var a = 2;
+- Reatribuição. É o nome da sua variável e igualar ela a 
+um valor. a = 2;
+- camelCase

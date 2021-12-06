@@ -1,0 +1,19 @@
+#Objetivos
+
+1. Apresentar as principais estruturas de dados
+do JavaScript e seus principais métodos
+
+##Estruturas de dados
+
+JavaScript é uma linguagem de tipagem dinâmica e
+fraca.
+
+Ou seja, antes de declarar um valor, você não precisa
+especificar o tipo dele.
+
+##Estruturas de dados
+
+Data Types in JS:
+
+Primitive Types: Numbers, strings, boolean, null, undefined
+Composite/Non-Primitive Types: objects, arrays

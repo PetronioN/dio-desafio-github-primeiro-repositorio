@@ -1,0 +1,18 @@
+##Strings
+
+const DIO = 'Digital Innovation One';
+
+let firstName = 'João';
+let lastName = 'Luiz';
+
+let fullName = `Nome completo: ${firstName} ${lastName};
+
+- Comumente utilizada para textos
+- Valores declarados entre aspas ou crases
+- O uso de crases é chamado de interpolação
+
+Métodos importantes:
+
+- Concatenação
+- Propriedade length
+- Iterabilidade
