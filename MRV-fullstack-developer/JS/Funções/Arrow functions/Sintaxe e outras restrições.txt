@@ -1,0 +1,35 @@
+#Objetivos
+
+1. Apresentar a sintaxe de uma arrow function
+
+##Sintaxe
+
+const helloWorld = () => "Hello World";
+
+- Caso exista apenar uma linha, pode dispensar as
+chaves e o return
+- Caso exista apenas um parâmetro, pode dispensar
+os parênteses
+
+cont soma = a => a;
+
+soma(4);
+
+Arrow function NÃO faz hoisting!
+
+soma(2,4);
+
+function soma(a, b) {
+	return a + b;
+} //isso funciona
+
+soma(2, 4)
+const soma = (a, b) => a + b; //isso não funciona
+
+##Outras restrições
+
+- "this" sempre será o objeto global. Métodos para
+modificar seu valor não irão funcionar;
+- Não existe o objeto "arguments";
+- O construtor (ex.: new MeuObjeto()) também não
+pode ser utilizado.

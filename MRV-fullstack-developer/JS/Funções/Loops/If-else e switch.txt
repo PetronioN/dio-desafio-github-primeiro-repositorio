@@ -1,0 +1,34 @@
+#Objetivos
+
+1. Ensinar como utilizar algumas das mais
+famosas declarações do JavaScript
+
+##If/else
+
+if(condição) {
+	resultado = false; //declaração 1
+} else {
+	resultado = true; //declaração 2
+}
+
+Javascript não tem elseif, as palavras sempre estão
+espaçadas!
+
+##Switch
+
+- Equivale a uma comparação de tipo e valor (===)
+- Sempre precisa de um valor "default"
+- Ideal para quando se precisa comparar muitos valores
+
+function getAnimal(id) {
+	switch(id) {
+		case 1:
+			return "cão";
+		case 2:
+			return "gato";
+		case 3:
+			return "pássaro";
+		default:
+			return "peixe;
+	}
+}

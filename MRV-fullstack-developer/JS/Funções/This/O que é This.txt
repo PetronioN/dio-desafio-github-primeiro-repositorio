@@ -1,0 +1,20 @@
+#Objetivos
+
+1. Apresentar a palavra "this" e seu uso
+2. Como aplicar métodos para manipular seu
+valor
+
+##This: o que é?
+
+A palavra reservada this é uma referência de
+contexto.
+
+Seu valor pode mudar de acordo com o lugar no
+código onde foi chamada.
+
+Contexto			Referência
+Em um objeto (método)		Próprio objeto dono do método
+Sozinha				Objeto global (em navegadores, window)
+Função				Objeto global
+Evento				Elemento que recebeu o evento
+

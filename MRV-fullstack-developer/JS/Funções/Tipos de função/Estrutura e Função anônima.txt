@@ -1,0 +1,37 @@
+#Objetivos
+
+1. Apresentar a estrutura de uma função
+2. Alguns outros tipos de funções e como
+são utilizadas
+
+##Estrutura
+
+Definição comum de uma função
+
+function nome(parâmetro) {
+	//instruções
+}
+
+Variáveis criadas dentro de uma função apenas
+podem ser utilizadas dentro delas.
+
+function nome(parâmetro) {
+	//instruções
+	return; //valor de retorno
+}
+
+Quando invocamos o "return", a função para de
+ser executada.
+
+##Função anônima
+
+Funções que representam expressões
+
+const soma = function (a, b) {
+	return a + b;
+}
+
+soma(1,2) //3
+soma(5, 4) //9
+
+Uma variável pode armazenar uma função.
