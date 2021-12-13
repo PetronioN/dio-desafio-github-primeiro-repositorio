@@ -1,0 +1,48 @@
+# Objetivos
+
+1. Explicar o que são Promises
+2. Ensinar como manipulá-las
+3. Apresentar as palavras-chave "async" e "await"
+
+## Definição
+
+Assíncrono
+"Que não ocorre ou não se efetiva ao mesmo tempo."
+
+Synchronous são estudantes engajados em uma atividade
+de um curso em uma data/tempo específico. Necessitando
+que todos estejam online para o encontro.
+
+Asynchronous são estudantes engajados na atividade de
+um curso ao mesmo tempo que contribuem de sua própria
+maneira.
+
+O JavaScript roda de maneira síncrona.
+
+No síncrono, nós fazemos uma coisa de cada vez.
+No assíncrono, podemos fazer várias coisas ao mesmo tempo.
+
+## Promises
+
+Objeto de processamento assíncrono
+
+Inicialmente, seu valor é desconhecido. Ela pode,
+então, ser resolvida ou rejeitada.
+
+Uma promise pode ter 3 estados
+
+1) Pending 2) Fulfilled 3) Rejected
+
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+	}, 2000);
+});
+
+## Async/await
+
+Funções assíncronas precisam dessas duas palavras
+chave.
+
+Funções assíncronas também retornam Promises!
+

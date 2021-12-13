@@ -1,0 +1,29 @@
+#Objetivos
+
+1. Explicar como manipular o objeto Error
+
+##O objeto error
+
+new Error(message, fileName, lineNumber)
+
+// todos os parâmetros são opcionais.
+
+const MeuErro = new Error('Mensagem inválida');
+
+throw MeuErro;
+
+// pode ser feita também da maneira abaixo
+
+const MeuErro = new Error('Mensagem inválida');
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;
+
+MeuErro.name
+// o nome do erro
+
+MeuErro.stack
+// onde foi encontrado o erro
+
+MeuErro
+// retorna a mensagem completa do erro

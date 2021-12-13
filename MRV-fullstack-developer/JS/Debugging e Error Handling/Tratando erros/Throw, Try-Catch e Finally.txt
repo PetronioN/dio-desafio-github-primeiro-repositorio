@@ -1,0 +1,18 @@
+#Objetivos
+
+1. Explicar a diferença entre "trhow" e "return"
+2. Apresentar a implementação da declaração try/catch
+
+##Throw
+
+Está incluso a imagem.
+
+##Try...catch
+
+Declaração na imagem.
+
+##Finally
+
+Bloco vai ser executado de qualquer maneira.
+
+Instrução inclusa na imagem.
