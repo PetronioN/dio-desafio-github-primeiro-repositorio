@@ -1,0 +1,19 @@
+# Objetivos
+
+1. Apresentar o conceito de protótipos e cadeia
+de protótipos
+2. Apresentar a estrutura de classes em Javascript
+
+## Protótipos
+
+Todos os objetos Javascript herdam propriedades e métodos
+de um prototype. O objeto Object.prototype está no
+topo desta cadeia.
+
+## Classes
+
+<b>Syntatic sugar</b>: uma sintaxe feita para
+facilitar a escrita
+
+Javascript não possui classes nativamente. Todas
+as classes são objetos e a herança se dá por protótipos.
