@@ -1,0 +1,18 @@
+Comandos utilizado no terminal do Kali Linux:
+
+nmap -v -sS 8.8.8.8
+
+-v -> verbose
+-s -> scan
+S -> SYN Scan
+8.8.8.8 -> pode ser substituído por um IP.
+
+nmap -v -sU 8.8.8.8
+
+U - UDP Scan
+
+nmap -v -sC 8.8.8.8
+
+C -> Scan do tipo intenso. Demora mais, mas mostra
+muito mais saídas.
+
