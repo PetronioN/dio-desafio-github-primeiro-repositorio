@@ -1,0 +1,11 @@
+# Objetivos
+
+1. Ensinar como manipular estilos de elementos HTML
+
+## Classes
+Element.classList
+
+## CSS
+Acessando diretamente o CSS de um elemento
+
+document.getElementByTagName("p").style.color = "blue";

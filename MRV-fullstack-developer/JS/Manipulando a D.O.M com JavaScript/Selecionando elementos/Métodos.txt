@@ -1,0 +1,33 @@
+# Objetivos
+
+1. Apresentar a estrutura HTML
+2. Apresentar métodos para interagir com os
+elementos de uma página
+
+## Estrutura HTML
+
+Selecionando os elementos de uma página
+
+document.getElementById('id');
+
+document.getElementsByTagName('elemento'); 
+// retorna um array
+
+document.getElementByClassName('classe');
+// retorna um array
+
+document.querySelectorAll('.primeira-class .segunda-classe');
+// retorna um array - combinação de duas classes
+// retorna o elemento que tem esssas duas classes
+
+document.querySelectorAll('li .opcao');
+// retorna um array - combinação de tag e classe
+// retorna a tag que tem a classe especificada
+
+## Adicionar e deletar
+
+Método					Descrição
+document.createElement(element)		Cria um novo elemento HTML
+document.removeChild(element)		Remove um elemento
+document.appendChild(element)		Adiciona um elemento
+document.replaceChild(new, old)		Substitui um elemento
