@@ -1,0 +1,1 @@
+É com muito prazer que faço o push desse projeto tão maravilhoso e com uma tutoria de imensa qualidade. Me sinto muito lisonjeado por ter a oportunidade de visualizar aulas tão maravilhosas e poder ter a capacidade, através do que aprendi, de fazer a página do meu jeito.
