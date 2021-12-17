@@ -1,0 +1,29 @@
+# Objetivos
+
+1. Conhecer a implementação do método reduce
+
+## O que é
+
+- Executa uma função em todos os elementos do
+array, retornando um valor único
+
+## Sintaxe
+
+array.reduce(callbackFn, initialValue);
+
+<strong>Callback:</strong> função a ser executada
+a partir do acumulador
+<strong>initialValue:</strong> valor sobre o qual o retorno
+final irá atuar.
+
+const callbackFn = function(accumulator, currentValue, index,
+array) {
+	// do something
+}
+
+array.reduce(callbackFn, initialValue)
+
+<strong>Accumulator/prevValue:</strong> acumulador de todas
+as chamadas de callbackFn
+<strong>currentValue:</strong> elemento atual sendo acessado
+pela função

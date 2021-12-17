@@ -1,0 +1,37 @@
+@media screen and (max-width:400px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-bottom: 5px;
+        width: 190px;
+        height: 50%;
+    }
+
+    .titulo {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    .filme-principal .descricao {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 10px;
+    }
+
+    .filme-principal {
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 50%;
+    }
+
+    .titulo {
+        width: 50%;
+    }
+}

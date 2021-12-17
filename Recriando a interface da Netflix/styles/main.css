@@ -1,0 +1,152 @@
+:root {
+    --laranja: #c7381f;
+    --preta: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Elementos base */
+body {
+    background: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 90px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+/* Filme principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capaH.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px 20px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+    position: absolute;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+}
+
+.carrosel-filmes {
+    position: relative;
+}
+
+.cabecalho {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.checked {
+    color: orange;
+    padding-bottom: 5px;
+}
+
+.icones {
+    margin-left: 5px;
+    align-items: center;
+}
+
+.tipoFilme {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
