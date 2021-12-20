@@ -1,0 +1,5 @@
+## Conceito de nó
+
+O elo que liga um nó ao outro é a referência de nó.
+
+A última referência de nó, nós apontamos para nulo.
