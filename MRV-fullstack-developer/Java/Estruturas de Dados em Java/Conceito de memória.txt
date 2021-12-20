@@ -1,0 +1,1 @@
+Somente Instalação do Intellij e JDK.
