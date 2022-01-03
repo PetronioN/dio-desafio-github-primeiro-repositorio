@@ -1,0 +1,29 @@
+## Configuração
+
+Principais conceitos do Webpack:
+
+- Entry - Utilizando grafo, o Webpack precisa de
+um ponto de entrada para buscar todos os módulos
+e dependências.
+
+- Output - É para determinar quais são os bundlers
+que o Webpack irá emitir.
+
+- Loaders - É para permitir que o Webpack gerencie
+arquivos que não são JavaScript.
+
+- Plugins - Plugins podem ser utilizados para
+otimização de pacotes, minificação, injeção de scripts
+e muito mais.
+
+- Mode - Utilizados para abordagem de configuração
+zero. É possível configurar módulos como <strong>production,
+development</strong> e <strong>none</strong>.
+
+<strong>Production</strong> trás otimizações internas.
+
+<strong>Development</strong> - É executado com três plugins:
+UglifyJsPlugin, ModuleConcatenationPlugin e NoEmitOnErrorsPlugin.
+
+Para funcionar um webpack com o babel, eu preciso
+criar o babelrc.

@@ -1,0 +1,5 @@
+# Objetivos
+
+1. Rest HTTP com React
+2. Imutabilidade e Redux
+3. Redux + Rest

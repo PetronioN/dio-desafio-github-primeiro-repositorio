@@ -1,0 +1,9 @@
+## Pensando do jeito React
+
+- Comece com um Mock
+- Separa a UI em uma hierarquia de componentes
+- Cria uma versão estárica em React
+- Identifique a representação mínima (mas completa)
+do State da UI
+- Identifique onde o state deve ficar
+- Adicione o fluxo de dados inverso

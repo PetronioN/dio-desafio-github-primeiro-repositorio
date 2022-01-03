@@ -1,0 +1,5 @@
+# Objetivos
+
+1. Introdução ao Flux
+2. O que é Redux
+3. Redux + React

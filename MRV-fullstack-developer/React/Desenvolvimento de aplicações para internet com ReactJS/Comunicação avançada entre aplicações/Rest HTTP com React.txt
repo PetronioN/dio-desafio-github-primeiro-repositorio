@@ -1,0 +1,28 @@
+## APIs HTTP
+
+- Servem para conectar a um ou mais servidores HTTP
+	- GET
+	- POST
+	- DELETE
+	- PUT
+- Fetch API
+- Axios
+
+## Fetch API
+
+- Nativa do browser
+- Oferece uma alternativa do XMLHttpRequest() e
+jQuery.ajax()
+- Suporte a Service Workers
+- Algumas diferenças
+	- Não envia nem recebe cookies (precisa definir
+	a opção credentials)
+	- Não rejeita o status do erro HTTP
+
+## Axios
+
+- Lib de HTTP API
+- Cross-browser
+- Pode monitorar o progresso de um request
+- Melhor tratamento de erros
+- Melhor teste

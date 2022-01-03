@@ -1,0 +1,7 @@
+<strong><i>Como eu sei que um dado está relacionado a outro dado?</i></strong>
+
+Eu sei que um dado está relacionado a outro dado
+quando eu relaciono os códigos entre um dado e outro.
+
+Nos bancos de dados relacionais, eu não consigo ter
+os dados órfãos.

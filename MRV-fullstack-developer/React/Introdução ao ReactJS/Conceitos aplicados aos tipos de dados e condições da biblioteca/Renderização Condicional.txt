@@ -1,0 +1,92 @@
+# Objetivos
+
+1. Renderização Condicional
+2. Listas e Chaves
+3. Manipulação de Eventos
+4. Pensando do jeito React
+
+## Renderização Condicional
+
+"Em React, você pode criar componentes distintos
+que encapsulam o comportamento que você precisa.
+Então, você pode renderizar apenas alguns dos
+elementos, depenedendo do estado da sua aplicação."
+
+- Variáveis de elementos
+- If inline com o Operador Lógico &&
+- If-Else inline com Operador Condicional
+- Evitando que um componente seja renderizado
+
+Utilização do operador lógico &&:
+
+import React from "react";
+
+const buttonA = <button>Histórico dos Clientes</button>
+
+const hasCustomer = true // Já que está true, o conteúdo na div vai aparecer
+// se eu colocar false, o conteúdo não aparece.
+
+const App = () => {
+	return (
+		<div>
+			<p>Digital Innovation One</p>
+			<p>Bem vindo a aula</p>
+			{hasCustomer && (
+				<div>
+				  Clique no botão abaixo para visualizar o histórico dos clientes
+				  <br />
+				  {buttonA}
+			)}
+	);
+
+};
+export default App;
+
+Para utilizar o if/else, eu vou utilizar um laço
+ternário:
+
+import React from "react";
+
+const buttonA = <button>Histórico dos Clientes</button>
+
+const buttonB = <button>Cadastrar Cliente</button>
+
+const hasCustomer = true // Já que está true, o conteúdo na div vai aparecer
+// se eu colocar false, o conteúdo não aparece.
+
+const App = () => {
+	return (
+		<div>
+			<p>Digital Innovation One</p>
+			<p>Bem vindo a aula</p>
+			{hasCustomer ? (
+				<div>
+				  Clique no botão abaixo para visualizar o histórico dos clientes
+				  <br />
+				  {buttonA}
+				</div>
+			) : (
+				<div>
+				  Clique abaixo para cadastrar o cliente
+				  <br />
+				  {buttonB}
+				</div>
+			)}
+	);
+
+};
+export default App;
+
+Para não retornar um determinado elemento, você
+pode fazer da seguinte maneira:
+
+const showCustumer = () => {
+
+	if (!hasCustumer) return null
+
+	return (
+		<div>
+		  <h1>Nome do cliente: Nome</h1>
+		</div>
+	)
+}

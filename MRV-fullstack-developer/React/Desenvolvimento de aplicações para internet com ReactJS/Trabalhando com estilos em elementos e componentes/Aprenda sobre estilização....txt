@@ -1,0 +1,67 @@
+## Maneiras de estilização
+
+1. Inline
+2. Classes
+3. CSS in JS
+
+## Inline
+
+const divStyle = {
+	color: 'blue',
+	backgroundImage: 'url(" + imgUrl + ")'
+};
+function HelloWorldComponent() {
+	return <div style={divStyle}>Hello World!</div>;
+}
+function App() {
+	return (
+		<HelloWorld style = {{ marginTop: '10px' }} />
+	)
+}
+
+> Prós
+	- Maneira mais prática e direta
+	- Ajustes rápidos
+	- Testes de estilo
+> Contras
+	- Difícil manutenção
+
+## Classes
+
+.div-style {
+	color: 'blue';
+	background: url('link');
+}
+
+import './HelloWorldComponent.css';
+
+function HelloWorldComponent() {
+	return <div className = "div-style">Hello World!</div>
+}
+
+> Em JSX, define-se classes pelo atributo className
+	- Maneira mais prática e direta
+> Contras
+	- Difícil manutenção
+	- Pouca flexibilidade
+	- Conflitos com nomes
+
+## CSS in JS
+
+npm install --save styled-components
+
+const DivStyles = styled.div`
+	color: blue;
+	background: url('$(props => props.imageUrl}');
+`;
+
+function HelloWorldComponent() {
+	const url = 'link';
+	return <DivStyle imageUrl = {url}>Hello World</DivStyle>;
+}
+
+> Manutenção
+	- Facilidade para remover CSS
+	- Estilos dinâmicos
+> Performance
+> Injeção automática de prefixos vendor

@@ -1,0 +1,86 @@
+## Listas e Chaves
+
+- Renderizando Múltiplos Componentes
+- Componente de Lista Básico
+- Chaves
+- Extraindo Componentes com Chaves
+- Chaves devem ser Únicas apenas entre Elementos Irmãos
+
+O código abaixo faz uma renderização de múltiplos componentes:
+
+const listCustumers = [
+	{
+	  id: 1,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 2,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 3,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 4,
+	  name: 'Nome 1'
+	}
+]
+
+const App = () => {
+
+	const renderCustumers = (custumer, index) => {
+		return (
+			<li>{custumer.name}</li>
+		)
+	}
+
+	return (
+	  <div>
+		<ul>
+		  {listCustomer.map(renderCustomers)}
+	  	</ul>
+	  </div>
+	)
+}
+
+Porém, no código acima, o React irá gerar um erro no console,
+porque ele espera que cada elemento tenha uma key. Por
+essa questão, você deve fazer o seguinte:
+
+const listCustumers = [
+	{
+	  id: 1,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 2,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 3,
+	  name: 'Nome 1'
+	},
+	{
+	  id: 4,
+	  name: 'Nome 1'
+	}
+]
+
+const App = () => {
+
+	const renderCustumers = (custumer, index) => {
+		return (
+			<li key={`customer-${customer.id}`}>{custumer.name}</li>
+		)
+	}
+
+	return (
+	  <div>
+		<ul>
+		  {listCustomer.map(renderCustomers)}
+	  	</ul>
+	  </div>
+	)
+}
+

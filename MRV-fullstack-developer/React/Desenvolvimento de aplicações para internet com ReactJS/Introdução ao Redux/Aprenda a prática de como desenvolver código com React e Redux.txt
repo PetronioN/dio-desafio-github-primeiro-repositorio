@@ -1,0 +1,8 @@
+## Instalando o Redux
+
+npm install react-redux
+npm install --save-dev redux-devtools
+
+Extensão no chrome: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related?hl=pt-BR
+
+

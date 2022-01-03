@@ -1,0 +1,9 @@
+O maior problema que temos no desenvolvimento
+do software é que as consultas dos bancos de dados
+são ocultas pelos frameworks ORM.
+
+É muito difícil você se deparar com uma situação
+onde você precisa criar um banco de dados do zero.
+
+<strong>ORM</strong> são componentes utilizados para abstrair as
+consultas de bancos de dados. 

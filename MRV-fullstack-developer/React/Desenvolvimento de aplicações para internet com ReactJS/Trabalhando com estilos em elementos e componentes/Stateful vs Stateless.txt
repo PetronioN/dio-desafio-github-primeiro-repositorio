@@ -1,0 +1,26 @@
+## Introdução
+
+- Stateful: usa estados
+- Stateless: não usa estados
+
+## Stateful
+
+- Possui gerenciamento de estados no componente.
+- Construído usando classes em JS.
+
+## Stateful - Ciclo de vida
+
+Initialization > Mounting > Updation > Unmounting
+
+## Stateless
+
+- Não possui gerenciamento de estados no componente.
+- Construídos usando funções em JS.
+
+## Stateful vs stateless
+
+- A nomeclatura foi atualizada
+	- Class Components
+	- Function Components
+- Com hooks, estados são manipuláveis em function
+components!

@@ -1,0 +1,32 @@
+## Introdução
+
+- Formulários mantêm um estado interno
+
+<form>
+	<label>
+		Nome:
+		<input type="text" name="nome" />
+	</label>
+	<input type="submit" value="Enviar" />
+</form>
+
+- Em HTML, <input>, <textarea> e <select> têm um
+estado interno
+- Em React, podemos controlar o estado 
+	- state
+	- setState
+
+## Componente controlado
+
+- Tanto select, input, ou text area aceitam um atributo
+value
+- Podemos mudar esse valor usando o atributo onChange
+
+## Componente não-controlado
+
+- A tag input é read-only
+
+## Bibliotecas
+
+- Formik: https://formik.org/docs/overview
+- Redux Form: https://redux-form.com/8.3.0/

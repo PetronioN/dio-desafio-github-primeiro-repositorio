@@ -1,0 +1,23 @@
+# Objetivos
+
+1. O que é webpack
+2. Configuração
+3. Criar um dev server
+4. EsLint
+
+## O que é Webpack
+
+É um <strong>module bundler</strong> (um empacotador
+de módulos para aplicações JS)
+
+Gerar bundler que será utilizado no HTML, em ES5.
+
+<strong>Link oficial:</strong> https://webpack.js.org/
+
+<i>Suporte:</i>
+- Fontes;
+- CSS;
+- Imagens;
+- HTML;
+- JS;
+- Plugins.
