@@ -1,0 +1,2 @@
+A primeira letra do nosso componente sempre deve
+ser maiúscula.

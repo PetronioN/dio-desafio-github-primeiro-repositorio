@@ -1,0 +1,31 @@
+## O que é TDD
+
+- Test-Driven Development
+- Antecipar erros a nível de desenvolvimento
+	- Teste escrito antes da funcionalidade
+- Não descarta a presença de um tester
+
+- Teste unitário
+- Teste End-to-End (E2E)
+
+- Jest
+- React-testing-library
+- Shallow
+- Enzyme
+- Chai
+- Mocha
+- Selenium
+- Puppeteer
+
+Links úteis:
+https://jasmine.github.io/
+https://jestjs.io/pt-BR/
+
+## BDD e sintaxe Gherkin
+
+- Sintaxe de steps para definir cenários
+- Descreve cada funcionalidade por feature (caso
+de uso)
+
+- Jest-cucumber: yarn add --dev jest-cucumber
+- Chai

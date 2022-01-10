@@ -1,0 +1,5 @@
+node_modules é a pasta que ele instala todas as
+dependências que ele precisa para rodar o React.
+
+public é a pasta onde tem nosso index.html, que é
+onde toda a renderização vai ser carregada.

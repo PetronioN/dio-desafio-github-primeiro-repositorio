@@ -1,0 +1,4 @@
+@testin-library/react nos dá uma série de
+utilitários para conseguirmos escrever
+testes bem simples imitando o comportamento
+do usuário.

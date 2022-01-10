@@ -1,0 +1,5 @@
+A organização desse curso foi feita de maneira
+diferente porque o curso foi completamente prático.
+
+É uma ótima prática utilizar proptypes.
+

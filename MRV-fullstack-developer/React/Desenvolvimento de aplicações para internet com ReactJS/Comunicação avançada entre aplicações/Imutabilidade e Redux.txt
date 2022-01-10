@@ -19,3 +19,32 @@ aumentando a performance.
 imutáveis.
 - Você consegue usando o shouldComponentUpdate ou
 React.PureComponent.
+
+## Imutabilidade
+
+Libs:
+- Immer
+- Immutability-helper
+- Seamless-immutable
+
+## Imutabilidade e Redux
+
+- Imutabilidade é pré requisito no Redux
+	- Redux e React-Redux utilizam comparações
+	rasas
+	- Manipulação de dados mais segura
+	- Time-travel debugging
+
+- Os Reducers dividem o objeto de estados em
+domínios por uma chave;
+- combineReducers checa mudanças usando comparação
+rasa
+	1. Fazem a interação nos reducers
+	2. Criam um novo objeto de estados a partir
+	dos estados retornados por cada reducer
+
+- connect gera componentes que fazem comparação rasa com
+o estado root
+- Retornam o valor para a função mapStateToProps,
+verificando aqueles que precisam de uma operação
+de re-render.

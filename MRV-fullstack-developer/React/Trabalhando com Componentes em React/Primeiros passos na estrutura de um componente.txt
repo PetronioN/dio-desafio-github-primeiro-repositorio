@@ -1,0 +1,43 @@
+Para você trabalhar com elementos irmãos você
+não pode fazer o seguinte:
+
+const App = () => {
+	return (
+		<h1>Titulo 1</h1>
+		<p>Eu sou um parágrafo</p>
+	)
+}
+
+export default App;
+
+O código acima vai gerar um erro, pois você tem
+elementos irmãos dentro do return. O que você
+deve fazer nesse caso é usar div
+
+const App = () => {
+	return (
+		<div>
+			<h1>Titulo 1</h1>
+			<p>Eu sou um parágrafo</p>
+		</div>
+	)
+}
+
+export default App;
+
+Porém, em um código maior o excesso de divs vai
+deixar o seu código "sujo". Utilize somente <>
+
+const App = () => {
+	return (
+		<>
+			<h1>Titulo 1</h1>
+			<p>Eu sou um parágrafo</p>
+		</>
+	)
+}
+
+export default App;
+
+Da maneira acima, o código não irá lhe gerar erros
+e ficará limpo.

@@ -1,0 +1,9 @@
+## Tratamento de erros
+
+- Resiliência de SW
+- Segurança
+
+- Tratamento em componentes:
+	- Em JS usamos o PropTypes.
+	- Podemos usar linguagens tipadas como
+	TypeScript, definindo interfaces.

@@ -1,0 +1,11 @@
+## Redux Middlewares
+
+- Provê uma camada entre o disparo de uma ação e
+o momento que ela atinge o reducer.
+- Utilizados para uma variedade funções, entre elas
+chamadas de APIs de serviço.
+
+## Redux Thunk
+
+- Um thunk é uma função que chama outra função.
+- Instalação: yarn add redux-thunk
