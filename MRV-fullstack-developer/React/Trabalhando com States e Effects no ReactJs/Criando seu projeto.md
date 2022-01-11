@@ -1,0 +1,1 @@
+Os hooks não são obrigatórios, você consegue trabalhar no seu projeto sem os hooks, porém, você vai ter muito mais trabalho em executar algumas ações.
