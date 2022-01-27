@@ -1,0 +1,4 @@
+O multi cast é você chamar vários métodos em
+sequência em uma única chamada do seu delegate.
+
+op += Calculadora.Subtrair;

@@ -1,0 +1,24 @@
+Um construtor privado é um tipo de construtor que
+você não consegue chamar para fazer uma instância.
+
+public class Log
+{
+	private Log()
+	{
+	
+	}
+
+	public static Log GetInstance(0
+	{
+		if(_log == null)
+		{
+			_log = new Log();
+		}
+		return _log;
+	}
+}
+
+Log log = log.GetInstance();
+
+O exemplo acima é como eu consigo utilizar um
+construtor privado.

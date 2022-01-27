@@ -1,0 +1,2 @@
+Eu só sou obrigado a implementar o método quando
+o mesmo não possui uma implementação padrão.

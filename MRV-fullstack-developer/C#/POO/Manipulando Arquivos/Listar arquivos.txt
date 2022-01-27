@@ -1,0 +1,12 @@
+public void ListarArquivosDiretorios(string caminho)
+{
+	var retornoArquivos = Directory.GetFiles(caminho, "*", SeachOption.AllDirectories);
+
+	foreach (var retorno in retornoArquivos)
+	{
+		System.Console.WriteLine(retorno);
+	}
+}
+
+Dessa maneira eu consigo listar todos os arquivos
+de todos os diretórios através e no raiz.

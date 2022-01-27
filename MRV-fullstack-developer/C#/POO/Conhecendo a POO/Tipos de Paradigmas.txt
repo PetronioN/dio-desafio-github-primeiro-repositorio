@@ -1,0 +1,24 @@
+## Paradigmas de programação
+
+Paradigma de programação é diferente de linguagem
+de programação.
+
+Uma linguagem de programação implementa um ou
+mais paradigmas.
+
+Um paradigma nada mais é do que um modelo de
+técnicas, estruturas e formas de solucionar um
+problema.
+
+## Tipos de paradigmas
+
+- Programação orientada a objetos
+- Programação estruturada
+- Programação imperativa
+- Programação procedural
+- Programação orientada a eventos
+- Programação lógica
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
+
+https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages

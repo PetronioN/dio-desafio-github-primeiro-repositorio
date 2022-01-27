@@ -1,0 +1,47 @@
+## Http Methods
+
+Get: sempre obtém os dados
+
+Post: cria um novo registro ou recurso
+
+Put: atualiza um registro existente
+
+Delete: remove um registro existente
+
+## Padrões
+
+Get: /api/dev/user
+
+Post: /api/dev/user
+
+Put: /api/dev/user/{id}
+
+Delete: /api/dev/user/{id}
+
+## Erros comuns
+
+Post: /api/dev/user/{id}
+
+Post: /api/dev/user/create
+
+Put: /api/dev/user
+
+Delete: /api/dev/user?id=2
+
+## Status Codes
+
+Geralmente:
+2x....= Sucesso
+4x....= Erro no cliente
+5x....= Erro server side
+
+<strong>Status comuns:</strong>
+200 = OK
+401 = Unauthorized
+403 = Forbidden
+404 = Not found
+500 = Internal Server Error
+504 = Gateway Timeout
+
+<i>Referência</i>
+www.httpstatuses.com

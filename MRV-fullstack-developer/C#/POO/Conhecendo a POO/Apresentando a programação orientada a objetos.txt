@@ -1,0 +1,24 @@
+# Objetivos
+
+1. Apresentar a POO
+2. Tipos de paradigmas
+
+## O que é a POO?
+
+A POO é um paradigma de programação, ou seja,
+corresponde a uma técnica de programação para
+um fim específico.
+
+Dentro desta técnica, existem quatro pilares:
+- Abstração
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+O principal conceito da POO são classes e objetos.
+
+Classe: abstração de algo de mundo real que você
+queira representar na programação.
+
+Objeto: é o resultado da classe.
+

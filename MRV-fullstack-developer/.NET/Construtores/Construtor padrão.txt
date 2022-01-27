@@ -1,0 +1,6 @@
+Um construtor padrão é um construtor que não tem
+parâmetros e que toda classe possui caso você
+não defina um explicitamente.
+
+Quando você define um construtor, sua classe não
+tem mais um construtor padrão.

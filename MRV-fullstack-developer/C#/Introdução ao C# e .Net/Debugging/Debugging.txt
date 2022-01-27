@@ -1,0 +1,14 @@
+# Objetivos
+
+1. Como depurar o código
+
+A depuração pode ser feita colocando um BreakPoint
+no canto esquerdo do código ou apertando f9 e
+execurando ele.
+
+O código vai parar onde foi colocado o BreakPoint
+e então o código poderá ser inspecionado.
+
+F10 pula de linha em linha.
+
+F5 conclui tudo.

@@ -1,0 +1,9 @@
+## Classe object
+
+A class System.Object é a mãe de todas as classes
+na hierarquia do .NET
+
+Todas as classes derivam, direta ou indiretamente
+da class Object, e ela tem como objetivo prover
+serviços de baixo nível para suas classes filhas.
+

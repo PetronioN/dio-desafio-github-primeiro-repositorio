@@ -1,0 +1,28 @@
+# Objetivos
+
+1. O que é API
+2. Rest / Restful
+3. Lab: Postman
+
+## O que é API
+
+- Application Program Interface
+- Pense em API como a camada que esconde as regras
+e possibilita uma comunicação externa
+
+- Facilita muito a integração
+
+- Existem várias metodologias ( ou arquiteturas ),
+como por exemplo: SOA, Rest, uso por meio de SDK
+
+## Rest/Restful
+
+Rest é a metodologia que você vai usar, o Restful é
+a API que usa o Rest.
+
+- A maioria do tráfico dos dados é por json [os antigos
+ainda usam xml]
+- Uma outra característica do Rest é a padronização
+dos end-point.
+- Uso de HTTP Methods ( Get, Post, Put, Delete )
+- Fácil entendimento ao iniciar uma integração

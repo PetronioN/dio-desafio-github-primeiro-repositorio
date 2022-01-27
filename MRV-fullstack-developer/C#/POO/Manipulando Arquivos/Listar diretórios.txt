@@ -1,0 +1,11 @@
+using System.IO;
+
+var retornoCaminho = Directory.GetDirectories(caminho, "*", SearchOption.[opção que você quiser]);
+
+foreach (var retorno in retornoCaminho)
+{
+	System.Console.WriteLine(retorno);
+}
+
+Esse comando retorna todos os diretórios que estão
+no raiz e dentro deles.

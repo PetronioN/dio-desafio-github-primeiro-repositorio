@@ -1,0 +1,11 @@
+public void CriarDiretorio(string caminho)
+{
+	var retorno = Directory.CreateDirectory(caminho);
+	System.Console.WriteLine(retorno.FullName);
+}
+
+helper.CriarDiretorio(Path.Combine(caminho, "Pasta Teste 3", "SubPastaTeste3"));
+
+Utilizando dessa forma, eu vou criar um diretório
+no caminho com o nome Pasta Teste 3 e dentro dele outro
+diretório com o nome SubPastaTeste3.

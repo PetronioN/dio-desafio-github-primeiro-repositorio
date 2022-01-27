@@ -1,0 +1,13 @@
+dotnet new sln --name Sln
+
+mkdir Diretorio
+
+cd Diretorio
+
+dotnet new console
+
+cd ..
+
+dotnet sln add Diretorio/ArquivoCSPROJ.csproj
+
+Link: https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-sln

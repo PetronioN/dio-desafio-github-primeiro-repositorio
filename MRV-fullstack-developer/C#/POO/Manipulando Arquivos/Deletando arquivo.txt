@@ -1,0 +1,6 @@
+public void DeletarArquivo(string caminho)
+{
+	File.Delete(caminho);
+}
+
+helper.DeletarArquivo(caminhoArquivo);

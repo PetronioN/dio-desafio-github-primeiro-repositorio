@@ -1,0 +1,7 @@
+public void ApagarDiretorio(string caminho, bool apagarArquivos)
+{
+	Directory.Delete(caminho, apagarArquivos);
+}
+
+helper.ApagarDiretorio(caminhoParaApagar, true);
+

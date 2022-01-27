@@ -1,0 +1,22 @@
+public void CriarArquivoTextoStream(string caminho, List<string> conteudo)
+{
+	
+
+
+	using(var stream = File.CreateText(caminho))
+	{
+		foreach (var linha in conteudo)
+		{
+			stream.WriteLine(linha);
+		}	
+	}
+}
+
+var listaString = new List<string> { "Linha 1", "Linha 2", "Linha 3" };
+
+helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+
+Cria um arquivo texto que não consome tanta memória
+comparado a ourta maneira de criar arquivo de texto.
+
+

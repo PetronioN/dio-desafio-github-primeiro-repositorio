@@ -1,0 +1,22 @@
+## Delegates
+
+Um delegate é uma maneira de passar um método como
+referência, podendo ser usado como um callback,
+aceitando qualquer método que contenha a mesma
+assinatura.
+
+public delegate void Operacao(int x, int y);
+
+O delegate fica logo abaixo da class.
+
+Operacao op = new Operacao(Calculadora.Somar);
+Operacao op = Calculadora.Somar;
+
+A segunda maneira da operação é uma alternativa
+de como fazer um delegate.
+
+op.Invoke(10, 10);
+op(10, 10);
+
+Acima são duas maneiras válidas de como chamar
+o delegate.

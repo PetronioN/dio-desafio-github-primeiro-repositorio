@@ -1,0 +1,13 @@
+## Classe
+
+Uma classe pode ter campos, propriedades, métodos
+e eventos dentro dela que são denominados membros.
+
+Quando uma classe é instanciada, essa instância
+é chamada de objeto, e nesse objeto podem ser
+criados os valores de acordo com os campos da classe.
+
+Para utilizar uma classe, é bom que você referencie
+o namespace dela no topo:
+
+using NameSpace;

@@ -1,0 +1,19 @@
+public void AdicionarTexto(string caminho, string conteudo)
+{
+	File.AppendAllText(caminho, conteudo);
+}
+
+public void AdicionarTextoStream(string caminho, List<string> conteudo)
+{
+	using (var stream = File.AppendText(caminho))
+	{
+		foreach (var linha in conteudo)
+		{
+			stream.WriteLine(linha);
+		}	
+	}
+}
+
+var listaStringContinuacao = new List<string> { "Linha 4", "Linha 5", "Linha 6" };
+
+helper.AdicionarTextoStream(caminhaArquivo, listaStringContinuacao);

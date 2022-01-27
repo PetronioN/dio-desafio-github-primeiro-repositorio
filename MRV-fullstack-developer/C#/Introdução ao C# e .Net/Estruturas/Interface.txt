@@ -1,0 +1,57 @@
+## Interface
+
+É como uma classe base que serve de molde para
+várias classes.
+
+Uma classe que implementa uma interface deve
+implementar todos os membros.
+
+- Uma interface, por padrão, deve ter um i maiúsculo
+na frente.
+
+namespace Interface 
+{
+
+	interface IAnimal 
+	{
+	
+		void Nome(string nome);
+		void Dono(string nomeDono);
+		void Especie(string especie);
+	}
+
+	class Animal : IAnimal
+	{
+		public string Nome { get; set; }
+		public string NomeDono { get; set; }
+		public string Especie { get; set; }
+		
+		void IAnimal.Nome(string nome)
+		{
+			this.Nome = nome;
+		}
+
+		void IAnimal.Dono(string nomeDono)
+		{
+			this.NomeDono = nomeDono;
+		}
+
+		void IAnimal.Especie(string especie)
+		{
+			this.Especie = especie;
+		}
+	}
+}
+
+<strong>No outro arquivo:</strong>
+
+using Interface;
+
+namespace Teste
+{
+	Animal animal = new Animal();
+
+	animal.Nome = 'Nome';
+	animal.NomeDono = 'Nome Dono';
+	animal.Especie = 'Especie';
+}

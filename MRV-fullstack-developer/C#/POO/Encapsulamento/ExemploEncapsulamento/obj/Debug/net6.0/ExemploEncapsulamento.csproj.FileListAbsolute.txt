@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ExemploEncapsulamento.exe
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ExemploEncapsulamento.deps.json
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ExemploEncapsulamento.runtimeconfig.json
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ExemploEncapsulamento.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ref\ExemploEncapsulamento.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\bin\Debug\net6.0\ExemploEncapsulamento.pdb
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.AssemblyInfo.cs
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ref\ExemploEncapsulamento.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.pdb
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\C#\POO\Encapsulamento\ExemploEncapsulamento\obj\Debug\net6.0\ExemploEncapsulamento.genruntimeconfig.cache

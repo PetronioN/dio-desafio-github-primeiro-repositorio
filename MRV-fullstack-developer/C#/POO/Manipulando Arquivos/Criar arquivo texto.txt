@@ -1,0 +1,24 @@
+var caminhoArquivo = Path.combine(caminho, "Nome do arquivo.txt");
+
+public void CriarArquivoTexto(string caminho, string conteudo)
+{
+	File.WriteAllText(caminho, conteudo);
+}
+
+helper.CriarArquivoTexto(caminhoArquivo, "O que vai ser escrito no arquivo");
+
+Da maneira acima, eu fico sobrescrevendo o arquivo.
+
+var caminhoArquivo = Path.combine(caminho, "Nome do arquivo.txt");
+
+public void CriarArquivoTexto(string caminho, string conteudo)
+{
+	if (File.Exists(caminho))
+	{
+		File.WriteAllText(caminho, conteudo);
+	}
+}
+
+helper.CriarArquivoTexto(caminhoArquivo, "O que vai ser escrito no arquivo");
+
+Neste outro exemplo, o arquivo não vai se sobrescrever.

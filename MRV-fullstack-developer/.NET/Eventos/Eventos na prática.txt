@@ -1,0 +1,4 @@
+public delegate void DelegateCalculadora;
+
+public static event DelegateCalculadora EventoCalculadora;
+

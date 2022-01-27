@@ -1,0 +1,6 @@
+public void CopiarArquivo(string caminho, string novoCaminho, bool sobrescrever)
+{
+	File.Copy(caminho, novoCaminho, sobrescrever);
+}
+
+helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);

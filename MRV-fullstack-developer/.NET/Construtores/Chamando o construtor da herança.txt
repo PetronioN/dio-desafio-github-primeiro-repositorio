@@ -1,0 +1,14 @@
+public class Aluno : Pessoa
+{
+	public Aluno(string nome, string sobrenome) : base(nome, sobrenome)
+	{
+
+	}
+}
+
+O base está sendo usado para passar os parâmetros
+nome e sobrenome de aluno para a classe pessoa.
+
+
+
+

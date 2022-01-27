@@ -1,0 +1,30 @@
+# Objetivos
+
+1. Namespace
+2. Classe e Objeto
+3. Interface
+4. Enum
+
+## Namespace
+
+Os namespaces são usados para organizar classes.
+
+Para usar uma classe de outro namespace, colocams
+using no começo do código.
+
+namespace Nome
+{
+}
+
+Posso ter quantos namespaces eu quiser no meu código.
+
+O C# e o .NET utilizam o namespace para controlar
+suas classes.
+
+Não posso ter duas classes iguais dentro de um
+namespace.
+
+Temos duas maneiras de referenciar uma classe:
+
+1. var variavel = new Classe();
+2. var variavel = new NameSpace.Classe();

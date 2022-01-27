@@ -1,0 +1,25 @@
+## Enum
+
+Declara um conjunto de constantes nomeadas que
+começam do 0 e aumentam de 1 em 1.
+
+enum Estacao
+{
+	primavera,
+	verão,
+	outono,
+	inverno
+}
+
+Primavera vai ser 0, verão 1, outono 2 e inverno 3.
+
+Para chamar o enum:
+
+using Enum;
+
+namespace Name
+{
+	var pessoa = (Pessoas)0; // Primeira maneira
+	Pessoas pessoa2 = Pessoas.João // Segunda maneira. Ela vai ter o valor do índice do valor
+}
+

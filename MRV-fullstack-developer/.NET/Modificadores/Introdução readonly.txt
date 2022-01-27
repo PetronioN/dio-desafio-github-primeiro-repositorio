@@ -1,0 +1,12 @@
+## Readonly
+
+O modificador readonly (somente leitura) bloqueia
+um campo contra alterações que não sejam em sua
+inicialização ou pelo próprio construtor.
+
+No exemplo abaixo é como se faz um readonly.
+
+private readonly string nome = "Lucas";
+
+Um readonly não pode ser alterado porque ele é
+somente leitura.
