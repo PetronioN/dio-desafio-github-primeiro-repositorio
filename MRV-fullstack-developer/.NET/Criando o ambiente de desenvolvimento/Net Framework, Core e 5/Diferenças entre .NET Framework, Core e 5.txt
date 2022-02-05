@@ -1,0 +1,9 @@
+.NET Framework só roda no Windows.
+
+.NET Core é multiplataforma.
+
+.NET Standard surgiu para fazer um contrato de
+bibliotecas de classe base.
+
+.NET 5 surgiu para servir para todas as plataformas.
+

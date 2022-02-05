@@ -1,0 +1,33 @@
+CLI (Command-Line Interface)
+
+Processa os comandos que serão enviados para um
+programa de computador na forma de linhas de texto.
+
+dotnet --version - mostra a versão do dotnet que
+estou utilizando.
+
+dotnet --help - lista os possíveis comandos do
+dotnet.
+
+dotnet --info - traz informações referentes ao
+dotnet.
+
+dotnet new - me mostra os diversos tipos de projetos
+que posso criar.
+
+dotnet new --list --tag web - me retorna os modelos
+que tem a tag web.
+
+dotnet new --help - me retorna as opções que eu
+posso utilizar para filtrar.
+
+dotnet new console -o myApp - cria um projeto do tipo
+console.
+
+dotnet run - roda o meu projeto (lembrando que
+eu devo estar na pasta que tem meu projeto).
+
+dotnet build - compila o meu projeto.
+
+dotnet restore - resgata as dependências para o 
+meu projeto.

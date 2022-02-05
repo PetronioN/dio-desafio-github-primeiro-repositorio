@@ -1,0 +1,20 @@
+DDD: Domain Drive Design
+
+Contexto delimitado: são quando dois contextos
+são linkados no mesmo domínio.
+
+## Modelo de integridade
+
+Quando eu penso em limite de contexto, eu tenho
+que ver até onde vai o meu serviço.
+
+O mapa de contexto são todos os domínios e todos
+os contextos dentro da aplicação.
+
+Quando você for fazer uma dependência entre serviços,
+é muito importante que você tenha em mente que se
+aquilo não fizer parte do seu domínio, você deve
+fazer uma camada para que o seu domínio seja
+imutável. 
+
+Livro:

@@ -1,0 +1,4 @@
+public string[] ConverterParaArrayString(int[] array)
+{
+	return Array.ConvertAll(array, element => elemento.ToString());
+}

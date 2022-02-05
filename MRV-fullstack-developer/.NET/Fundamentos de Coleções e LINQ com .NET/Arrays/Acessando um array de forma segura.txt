@@ -1,0 +1,3 @@
+arrayInteiros = int.Parse("30"); // Uma outra alternativa
+// para passar um valor para o array.
+

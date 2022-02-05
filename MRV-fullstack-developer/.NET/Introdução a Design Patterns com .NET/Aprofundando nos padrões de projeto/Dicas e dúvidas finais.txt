@@ -1,0 +1,12 @@
+## Design Patterns - Algumas dicas
+
+Você não precisa saber todos. É bom conhecer bem
+os mais usados. (Adapter, Factory, Observer, Strategy,
+Builder, State, Singleton).
+Os menos usados, basta saber a proposta dele e conseguir
+discutir sobre. Se precisar implementar, basta revisar
+a literatura.
+
+Livros: Patterns of enterprise application architecture
+Design Patterns O'Reilly
+Design Patterns in C#

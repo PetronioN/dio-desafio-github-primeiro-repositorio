@@ -1,0 +1,27 @@
+## Introdução Arrays
+
+O array é uma estrutura de dados que armazena
+valores do mesmo tipo, com um tamanho fixo.
+
+1. int[] array = new int[4];
+2. int[] array = new int[] {42, 75, 74, 61}
+3. string[] nomes = {"Jan", "Fev"}
+
+## Disposição do Array
+
+Índice: é a posição de um determinado valor de um
+array, sempre começando com zero.
+
+1. var elemento = array[0]
+2. array[0] = 42
+
+## Array Multidimensional
+
+O array pode possuir mais de uma dimensão:
+
+int[,] array = new int[4,2];
+
+4 = número de linhas
+2 = número de colunas
+
+Acessar um valor: array[1,1]

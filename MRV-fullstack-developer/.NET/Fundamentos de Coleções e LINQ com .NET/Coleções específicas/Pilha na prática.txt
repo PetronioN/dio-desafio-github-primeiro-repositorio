@@ -1,0 +1,14 @@
+Stack<string> pilha = new Stack<string>();
+
+pilha.Push(".NET");
+pilha.Push("DDD");
+pilha.Push("Código Limpo");
+
+System.Console.WriteLine($"Livros para a leitura: {pilha.Count}");
+while (pilha.Count > 0)
+{
+	System.Console.WriteLine($"Próximo livro para a leitura: {pilha.Peek()}");
+	System.Console.WriteLine($"{pilha.Pop()} lido com sucesso.");
+}
+
+System.Console.WriteLine($"Livros para a leitura: {pilha.Count}");

@@ -1,0 +1,5 @@
+## Classe Array
+
+A classe Array é uma classe do C# que nos oferece
+diversos métodos que nos auxiliam a trabalhar com
+arrays.

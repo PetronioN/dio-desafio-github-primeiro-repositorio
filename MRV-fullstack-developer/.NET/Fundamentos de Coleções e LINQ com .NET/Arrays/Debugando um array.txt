@@ -1,0 +1,9 @@
+Aperta F5, seleciona o .NET Core e será criado 
+um arquivo automaticamente.
+
+Para colocar um breakpoint é só você clicar na
+bola vermelha que fica no lado esquerdo do número
+da linha que você está.
+
+Para avançar para a próxima linha, você aperta
+F10.

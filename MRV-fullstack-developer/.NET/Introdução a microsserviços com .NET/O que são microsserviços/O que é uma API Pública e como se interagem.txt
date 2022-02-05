@@ -1,0 +1,15 @@
+Micro serviços podem e devem ser poliglotas em
+seus stacks.
+
+Micro serviços encapsulam estado e comportamento.
+- Quando nos falamos de estado, estados são as
+informações que temos de dados
+- Comportamento são as regras de negócio.
+
+Micro serviços possuem deploy independentes:
+- Se eu vou fazer o deploy de um determinado container,
+eu vou fazer unicamente dele, não vou impactar os
+demais.
+
+Micro serviços devem ter tratamentos isolados à
+falhas

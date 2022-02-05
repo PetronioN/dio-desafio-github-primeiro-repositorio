@@ -1,0 +1,4 @@
+public int ObterIndice(int[] array, int valor)
+{
+	return Array.IndexOf(array, valor);
+}

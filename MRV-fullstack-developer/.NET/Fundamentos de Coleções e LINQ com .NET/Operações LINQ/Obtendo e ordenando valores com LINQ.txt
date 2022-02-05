@@ -1,0 +1,12 @@
+int[] arrayNumeros = new int[5] { 1, 4, 8, 15, 19 };
+
+var numerosParesQuery = 
+	from num in arrayNumeros
+	where num % 2 == 0
+	orderby num
+	select num;
+
+var numerosParesMetodo = arrayNumeros.whre(x => x % 2 == 0).OrderBy(x => x).ToList();
+
+System.Console.WriteLine("Números pares query: " + string.Join(", ", numerosParesQuery));
+System.Console.WriteLine("Números pares método: " + string.Join(", ", numerosParesMetodo));

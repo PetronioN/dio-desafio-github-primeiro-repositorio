@@ -1,0 +1,3 @@
+string valorProcurado = "BA";
+
+System.Console.WriteLine(estados[valorProcurado]);

@@ -1,0 +1,8 @@
+var  soma = arrayNumeros.Sum();
+
+System.Console.WriteLine($"Soma: {soma}");
+
+var arrayUnico = arrayNumeros.Distinct().ToArray();
+
+System.Console.WriteLine($"Array original: {string.join(", ", arrayNumeros)};
+System.Console.WriteLine($"Array distinto: {string.join(", ", arrayUnico)};

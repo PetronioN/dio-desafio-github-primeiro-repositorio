@@ -1,0 +1,23 @@
+## Por que Microsserviços?
+
+Os microsserviços vieram com o intuito de facilitar
+e agilizar. 
+
+"Um monolito é uma estrutura geológica, como uma
+montanha, por exemplo, constituído por uma única
+e maciça pedra ou rocha."
+
+Prós:
+- Rápido e fácil para iniciar
+- Infraestrutura simples
+- Debug fascinante
+
+Contras:
+- Problemas com merge-conflicts
+- Conexões simultâneas TCP é limitada
+- Deadlock e concorrência
+- Bugs e defeitos colaterais (Único ponto de falha)
+- Build / Deploy longos pesados
+- Baixa escalabilidade
+- Agregação de tecnologia
+- Demora de aculturamento

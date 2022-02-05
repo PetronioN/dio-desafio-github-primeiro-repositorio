@@ -1,0 +1,5 @@
+public int ObterValor(int[] array, int valor)
+{
+	return Array.Find(array, element => element == valor);
+}
+

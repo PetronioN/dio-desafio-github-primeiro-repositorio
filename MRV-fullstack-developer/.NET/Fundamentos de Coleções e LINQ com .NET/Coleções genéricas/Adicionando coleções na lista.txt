@@ -1,0 +1,3 @@
+string[] estadosArray = new string[2] { "SC", "MT" };
+
+estados.AddRange(estadosArray);

@@ -1,0 +1,18 @@
+## Escalabilidade Vertical
+
+Se coloca mais memória, CPU no servidor quando é
+preciso escalar o servidor. No longo prazo isso
+vai ficar muito caro, não vale a pena.
+
+## Escalabilidade Horizontal
+
+Nós usamos um Load Balancer para pegar os acessos
+e dividir os acessos para mais de um servidor quando
+um estiver superlotado. De um monolito, eu acabo
+tendo vários monolitos, o que aumenta o meu problema.
+
+## Escalabilidade Horizontal com Microsserviços
+
+Eu continuo tendo o Load Balancer, mas agora ele
+é uma API Manager. Eu não preciso escalar todo o
+meu serviço, eu escalo por demanda.

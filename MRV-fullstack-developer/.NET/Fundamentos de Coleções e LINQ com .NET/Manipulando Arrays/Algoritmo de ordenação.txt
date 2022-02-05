@@ -1,0 +1,8 @@
+## Ordenando Arrays
+
+Para ordenar um array, existem diversos algoritmos
+de ordenação, diferentes técnicas e casos a serem
+considerados.
+
+Bubble sort é usado para ordenar códigos pequenos.
+

@@ -1,0 +1,18 @@
+int[] arrayInteiros = new int[3];
+
+Acima eu criei um array que pode armazenar 3 inteiros.
+
+arrayInteiros[0] = 10;
+
+Acima eu estou basicamente dizendo que o número
+na posição 0 vai valer 10.
+
+for (int i = 0; i < arrayInteiros.Length; i++)
+{
+	System.Console.WriteLine(arrayInteiros[i]);
+}
+
+foreach(int item in arrayInteiros)
+{
+	System.Console.WriteLine(item);
+}

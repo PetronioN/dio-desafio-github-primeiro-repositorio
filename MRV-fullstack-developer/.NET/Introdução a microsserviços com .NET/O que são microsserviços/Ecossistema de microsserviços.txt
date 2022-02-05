@@ -1,0 +1,12 @@
+## Ecossistema de microsserviços
+
+Para cada microsserviço temos um banco de dados,
+porque se eu precisso ter feedback escalar,
+eu preciso escalar o banco de dados junto.
+
+Domínio -> Escalabilidade -> Segregação de contexto
+
+O meu user account não precisa saber nada a respeito
+dos demais para funcionar, por mais que eles tenham
+dependências entre eles.
+

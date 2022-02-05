@@ -1,0 +1,10 @@
+var teste = estados["SC"];
+
+if (estados.TryGetValue(valorProcurado, out string estadoEncontrado))
+{
+	System.Console.WriteLine(estadoEncontrado);
+}
+else
+{
+	System.Console.WriteLine($"Chave {valorProcurado} não existe no dicionário");
+}

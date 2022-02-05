@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.AssemblyInfo.cs
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\Dio.Series.exe
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\Dio.Series.deps.json
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\Dio.Series.runtimeconfig.json
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\Dio.Series.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\ref\Dio.Series.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\bin\Debug\net6.0\Dio.Series.pdb
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\ref\Dio.Series.dll
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.pdb
+C:\Users\PC\Documents\Dev\Git\DIO\dio-desafio-github-primeiro-repositorio\MRV-fullstack-developer\.NET\Criando um APP simples de cadastro de séries em .NET\Dio.Series\obj\Debug\net6.0\Dio.Series.genruntimeconfig.cache

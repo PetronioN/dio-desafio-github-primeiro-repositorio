@@ -1,0 +1,11 @@
+Método sort é o método responsável por fazer a
+ordenação do nosso Array.
+
+using System;
+
+public void Ordenar(ref int[] array)
+{
+	Array.Sort(array);
+}
+
+op.Ordenar(ref array);
